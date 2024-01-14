@@ -1,7 +1,11 @@
-import styles from "./App.module.css";
+import Navbar from "./components/Navbar";
 
 function App() {
-    return <h1 className={styles.App}>Works of Allwin</h1>;
+    return (
+        <div>
+            <Navbar />
+        </div>
+    );
 }
 
 export default App;
